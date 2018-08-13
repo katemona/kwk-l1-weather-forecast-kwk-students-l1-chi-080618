@@ -18,8 +18,10 @@ weather_two = {
 def location(hash)
   puts hash[:city]
 end
+
 location(weather)
 location(weather_two)
+
 # 2. Using the location method as a guide, write a  method called "description" so it returns the description from the weather hash. 
 
 def description(weather)
